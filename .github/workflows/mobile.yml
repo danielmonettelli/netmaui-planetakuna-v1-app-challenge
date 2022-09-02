@@ -4,9 +4,21 @@ on:
   push:
     branches:
       - "main"
+    paths-ignore:
+      - '.gitattributes'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'README.md'
+      - 'Design/**'
   pull_request:
     branches:
       - "*"
+    paths-ignore:
+      - '.gitattributes'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'README.md'
+      - 'Design/**'
 
 jobs:
   Build_Android:
