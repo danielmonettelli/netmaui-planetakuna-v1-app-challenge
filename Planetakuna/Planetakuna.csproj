@@ -15,7 +15,7 @@
 		<ApplicationTitle>Planetakuna</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.planetakuna</ApplicationId>
+		<ApplicationId>com.danimonettelli.planetakuna</ApplicationId>
 		<ApplicationIdGuid>BC0FA99D-4C56-4CDB-AFC9-D5EC87AD7B66</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -46,6 +46,26 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\customfonticons.ttf" />
+	  <None Remove="Resources\Fonts\Kanit-Light.ttf" />
+	  <None Remove="Resources\Fonts\Kanit-Medium.ttf" />
+	  <None Remove="Resources\Fonts\Kanit-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Kanit-SemiBold.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Resources\Styles\Labels.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\Icons.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\Bases.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

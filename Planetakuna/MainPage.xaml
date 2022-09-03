@@ -11,30 +11,15 @@
             VerticalOptions="Center">
 
             <Image
-                HeightRequest="200"
+                HeightRequest="26"
                 HorizontalOptions="Center"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                Source="dotnet_bot.png" />
+                Source="{StaticResource icon_compass}"
+                WidthRequest="26" />
 
             <Label
-                FontSize="32"
                 HorizontalOptions="Center"
-                SemanticProperties.HeadingLevel="Level1"
-                Text="Hello, World!" />
-
-            <Label
-                FontSize="18"
-                HorizontalOptions="Center"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                SemanticProperties.HeadingLevel="Level2"
-                Text="Welcome to .NET Multi-platform App UI" />
-
-            <Button
-                x:Name="CounterBtn"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Text="Click me" />
+                Style="{StaticResource TxtCustomHeadline2_1}"
+                Text="MARS" />
 
         </VerticalStackLayout>
     </ScrollView>

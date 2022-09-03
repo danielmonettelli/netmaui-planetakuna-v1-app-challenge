@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="col_elev">#FF070707</Color>
+    <Color x:Key="col_non">#FF26387E</Color>
+    <Color x:Key="col_oct">#FF657FD9</Color>
+    <Color x:Key="col_prim">#FF030A24</Color>
+    <Color x:Key="col_quat">#FF4E5FA8</Color>
+    <Color x:Key="col_qui">#FFC8CBD6</Color>
+    <Color x:Key="col_sec">#FFFFFFFF</Color>
+    <Color x:Key="col_sept">#FF08133B</Color>
+    <Color x:Key="col_sext">#FF0B194B</Color>
+    <Color x:Key="col_ten">#FF1B3773</Color>
+    <Color x:Key="col_ter">#FFCED2DA</Color>
+    <Color x:Key="col_twel">#FF79808F</Color>
+
+</ResourceDictionary>

@@ -9,8 +9,11 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+				fonts.AddFont("customfonticons.ttf", "CustomFontIcons");
+				fonts.AddFont("Kanit-Light.ttf", "Kanit#300");
+				fonts.AddFont("Kanit-Regular.ttf", "Kanit#400");
+				fonts.AddFont("Kanit-Medium.ttf", "Kanit#500");
+				fonts.AddFont("Kanit-SemiBold.ttf", "Kanit#600");
 			});
 
 		return builder.Build();

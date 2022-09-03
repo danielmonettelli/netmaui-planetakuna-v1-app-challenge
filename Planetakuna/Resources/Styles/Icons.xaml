@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:FontIcons="clr-namespace:Planetacuna.CodeFontIcons">
+
+    <!--#region FontImageSource INTERFACES-->
+    <FontImageSource
+        x:Key="icon_right_arrow"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_right_arrow}"
+        Size="23"
+        Color="{StaticResource col_twel}" />
+
+    <FontImageSource
+        x:Key="icon_temperature"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_temperature}"
+        Size="26"
+        Color="{StaticResource col_sec}" />
+
+    <FontImageSource
+        x:Key="icon_earth"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_earth}"
+        Size="23"
+        Color="{StaticResource col_non}" />
+
+    <FontImageSource
+        x:Key="icon_rocket"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_rocket}"
+        Size="31"
+        Color="{StaticResource col_non}" />
+
+    <FontImageSource
+        x:Key="icon_speedometer"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_speedometer}"
+        Size="27"
+        Color="{StaticResource col_sec}" />
+
+    <FontImageSource
+        x:Key="icon_satellite"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_satellite}"
+        Size="27"
+        Color="{StaticResource col_sec}" />
+
+    <FontImageSource
+        x:Key="icon_compass"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_compass}"
+        Size="26"
+        Color="{StaticResource col_ter}" />
+
+    <FontImageSource
+        x:Key="icon_rotation"
+        FontFamily="CustomFontIcons"
+        Glyph="{x:Static FontIcons:CustomFontIcons.icon_rotation}"
+        Size="30"
+        Color="{StaticResource col_ter}" />
+    <!--#endregion-->
+
+</ResourceDictionary>
